@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Syncopate';
+  src: url('./fonts/Syncopate-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'RedHatDisplay';
+  src: url('./fonts/RedHatDisplay-VariableFont_wght.ttf') format('truetype');
+}
